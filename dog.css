@@ -3,7 +3,7 @@
   }
 
 .head{
-  background-color: rgba(244, 200, 143);
+  background-color: rgb(254, 226, 189);
   width: 440px;
   height: 400px;
   position: fixed;
@@ -25,7 +25,7 @@
 }
 
 .curve-le{
-    background-color: rgba(244, 200, 143);
+    background-color: rgb(254, 226, 189);
     width: 130px;
     height: 60px;
     position: absolute;
@@ -48,7 +48,7 @@
     border-radius: 120%;
 }
 .curve-re{
-    background-color: rgba(244, 200, 143);
+    background-color: rgb(254, 226, 189);
     width: 130px;
     height: 60px;
     position: absolute;
