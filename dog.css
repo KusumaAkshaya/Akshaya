@@ -11,6 +11,7 @@
   left: 200px;
   border-start-start-radius: 100px;
   border-radius: 500px;
+  border-top: 5px solid rgb(104, 81, 81);
 }
 
 .left-ear{
@@ -22,6 +23,7 @@
      left: -118px;
      top: 44px;
      border-radius: 120%;
+     border: 3px solid rgb(104, 81, 81);
 }
 
 .curve-le{
@@ -34,7 +36,7 @@
     right: 100px;
     border-radius: 100%;
     transform: rotate(-20deg);
-   
+    border-top: 3px solid rgb(104, 81, 81);
 }
 
 .right-ear{
@@ -46,6 +48,7 @@
     left: 325px;
     top: 43px;
     border-radius: 120%;
+    border: 3px solid rgb(104, 81, 81);
 }
 .curve-re{
     background-color: rgb(254, 226, 189);
@@ -55,7 +58,8 @@
     top: 120px;
     left: 20px;
     border-radius: 100%;
-    transform: rotate(12deg);  
+    transform: rotate(12deg); 
+    border-top: 3px solid rgb(104, 81, 81);  
 }
 .le-outer{
     width: 104px;
@@ -137,7 +141,6 @@
     left: 10px;
     border-radius: 80%;
 }
-
 .nose{
     border-top-left-radius: 60%;
     border-bottom-right-radius: 50%;
@@ -150,17 +153,18 @@
     left: 200px;
     transform: rotate(180deg);
 }
- 
 .cheeks-left{
     background-color: rgb(254, 226, 189);
     width: 260px;
     height: 235px;
     position: absolute;
     top: 159px;
+    left: -10px;
     border-radius: 100%;
+    border-left: 4px solid rgb(104, 81, 81);
+    transform: rotate(-20deg)
   }
-
-  .cheeks-right{
+.cheeks-right{
     background-color: rgb(254, 226, 189);
     width: 260px;
     height: 235px;
@@ -168,16 +172,18 @@
     top: 159px;
     left: 190px;
     border-radius: 100%;
-  }
-
+    border-right: 4px solid rgb(104, 81, 81);
+    transform: rotate( 20deg);
+}
   .cheeks-center{
     width: 160px;
     height: 120px;
     background-color: rgb(254, 226, 189) ;
     position: absolute;
     top: 303px;
-    left: 145px;
-    border-radius: 99%;
+    left: 145px; 
+    border-radius: 99%; 
+    border-bottom: 4px solid rgb(104, 81, 81); 
   }  
 .mouth{
     width: 100px;
@@ -192,7 +198,6 @@
     top: -320px;
     transform: rotate(178deg);
   }
-
 .right{
       position: absolute;
         left: 200px;
@@ -202,11 +207,11 @@
  
 .tongue{
     width:80px;
-    height: 60px;
-    background-color: pink;
+    height: 40px;
+    background-color: rgb(227, 108, 128);
     position: absolute;
-    top: 288px;
-    left: 181px;
+    top: 308px;
+    left: 192px;
     border-radius: 100%;
     
 }
@@ -217,8 +222,8 @@
    background-color: rgb(254, 226, 189);
    border-radius: 90%;
    position: absolute;
-   top: -18px;
-   left: -4px;
+   top: -38px;
+   left: -18px;
 }
 
 .t2{
@@ -227,8 +232,8 @@
     background-color: rgb(254, 226, 189) ;
     border-radius: 90%;
     position: relative;
-    top: -20px;
-    left: 47px;
+    top: -40px;
+    left: 40px;
  }
 
 
